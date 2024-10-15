@@ -48,16 +48,16 @@ df = pd.DataFrame({
 })
 df  # 👈 데이터프레임 출력
 
-# 차트 출력
-import matplotlib.pyplot as plt
-import numpy as np
+# # 차트 출력
+# import matplotlib.pyplot as plt
+# import numpy as np
 
-x = np.linspace(0, 10, 100)
-y = np.sin(x)
+# x = np.linspace(0, 10, 100)
+# y = np.sin(x)
 
-fig, ax = plt.subplots()
-ax.plot(x, y)
-fig  # 👈 차트 출력
+# fig, ax = plt.subplots()
+# ax.plot(x, y)
+# fig  # 👈 차트 출력
 
 
 
@@ -107,7 +107,7 @@ tab_1, tab_2, tab_3 = st.tabs(['탭AAAAA', '탭BBBBB', '탭CCCCC'])
 with tab_1:
     st.write('탭AAAAA')
     st.write('이것은 탭A의 내용입니다.')
-    fig
+    # fig
 
 # 두 번째 탭
 with tab_2:
